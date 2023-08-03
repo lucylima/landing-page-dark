@@ -1,0 +1,111 @@
+body{
+background-color: rgb(34,34,34);
+color: white;
+font-family: poppinsregular;
+max-width: 1200px;
+margin: 0 auto;
+padding: 15px;
+overflow: hidden;
+}
+
+header{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+h1{
+    font-weight: 200;
+}
+
+main{
+display: flex;
+flex-direction: row;
+margin-top: 20px;
+}
+
+li{ 
+    display: inline-block;
+    margin: 20px;
+}
+a { 
+    text-decoration: none; 
+    color : white
+}
+
+h2{
+    font-size: 50px;
+    line-height: 20px;
+    font-family: poppinsmedium;
+}   
+span{
+    color: rgb(132,13,201);
+}
+
+p { 
+    line-height: 20px;
+    max-width: 500px;
+    font-family: poppinslight;
+ }
+
+ img {
+    width: 600px;
+ }
+ 
+ a:hover{
+    color : rgb(132,13,201);
+    transition: 0.3s;
+ }
+
+#cadastro{
+    border: 2px solid rgb(132,13,201);
+    padding: 15px;
+    border-radius: 25px;
+}
+
+#cadastro:hover {
+    background-color: rgb(132,13,201);
+    color : white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width:70%;
+    font-family: poppinsmedium;
+}
+
+input {
+    margin-top: 15px;
+    height: 35px;
+    width: 435px;
+    padding: 18px;
+    border-radius: 35px;
+    border: none;
+    font-size: 15px;
+}
+
+form [type="submit"]{
+    height: 50px;
+    background-color: rgb(132,13,201);
+    color: white;
+    font-weight: bold;
+    width: 50%;
+}
+
+form [type="submit"]:hover{
+    height: 50px;
+    background-color: rgb(132,13,201,0);
+    border: 2px solid rgb(132,13,201);
+    color: white;
+    font-weight: bold;
+    transition: 0.1s;
+    cursor: pointer;
+    width: 50%;
+}

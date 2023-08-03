@@ -1,0 +1,47 @@
+@media screen and (max-width:760px){
+    header{
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+       
+    }
+    main {
+        flex-direction: column;
+    }
+    body {
+        overflow: visible;
+    }
+    h2 {
+        font-size: 38px;
+    }
+    form {
+        margin: 0 auto;
+    }
+    input {
+        align-self: center;
+    }
+    img {
+        display: none;
+    }
+    ul {
+        text-align: center;
+        padding: 0;
+    }
+    form input {
+        width: 100%;
+    }
+    form [type="submit"]{
+        width: 70%;
+    }
+    ul li {
+        text-align: center;
+        font-size: 90%;
+    }
+    span {
+        line-height: 30px;
+    }
+    aside h2 {
+        line-height: 30px;
+    }
+    
+}
